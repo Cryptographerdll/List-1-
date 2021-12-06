@@ -12,7 +12,7 @@ namespace Linq_1
     {
         static void Main(string[] args)
         {
-            // Linq Property in C# .
+            // Linq concept in C# .
 
             /// <summary>
             /// Linq to Sql;
@@ -31,7 +31,7 @@ namespace Linq_1
 
             List <string> Names = new List <string>()
             {
-                "khalid","bouhousse","home","speed","window","get","Slow","Server"
+                "khalil","bouhousse","home","speed","window","get","Slow","Server"
             };
 
             List <string> Result = new List <string>();
@@ -40,7 +40,7 @@ namespace Linq_1
             {
                 if (Names[i].Length > 3)
                 {
-                    Result.Add(Names[i]); // Only Items that Greater the 3 Characters . And Index start from 0 .
+                    Result.Add(Names[i]); // Only Items that Greater than 3 Characters . & Index start from 0 .
                 }
             }
 
